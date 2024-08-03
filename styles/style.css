@@ -132,3 +132,102 @@ button:hover {
     background: #035555;
     color: #12bab7;
 }
+
+/* Media Queries for responsiveness */
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 3em;
+  }
+  
+  p {
+    font-size: 1.25em;
+  }
+  
+  .btn {
+    font-size: 1.25em;
+    padding: 8px 16px;
+  }
+
+  .popup-info {
+    width: 80%;
+  }
+
+  .popup-info h2 {
+    font-size: 1.75em;
+  }
+
+  .popup-info .info {
+    font-size: 0.9em;
+  }
+
+  .popup-info .btn-group .info-btn {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  p {
+    font-size: 1.1em;
+  }
+  
+  .btn {
+    font-size: 1.1em;
+    padding: 6px 12px;
+  }
+
+  .popup-info {
+    width: 90%;
+  }
+
+  .popup-info h2 {
+    font-size: 1.5em;
+  }
+
+  .popup-info .info {
+    font-size: 0.8em;
+  }
+
+  .popup-info .btn-group .info-btn {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2em;
+  }
+  
+  p {
+    font-size: 1em;
+  }
+  
+  .btn {
+    font-size: 1em;
+    padding: 5px 10px;
+  }
+
+  .popup-info {
+    width: 100%;
+  }
+
+  .popup-info h2 {
+    font-size: 1.25em;
+  }
+
+  .popup-info .info {
+    font-size: 0.7em;
+  }
+
+  .popup-info .btn-group {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .popup-info .btn-group .info-btn {
+    font-size: 0.7em;
+  }
+}
