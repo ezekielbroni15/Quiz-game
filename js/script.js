@@ -18,5 +18,5 @@ exitBtn.onclick = function() {
 
 // When the continue button is clicked, go to the new page
 continueBtn.onclick = function() {
-  window.location.href = "../pages/question.html";
+  window.location.href = "./pages/question.html";
 };
